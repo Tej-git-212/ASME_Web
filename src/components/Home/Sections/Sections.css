@@ -1,0 +1,221 @@
+
+/* gallery */
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.gallery_asme{
+    padding: 1% 5%;
+    position:relative;
+       
+}
+.gallery_asme .extras{
+
+    width: 100% ;
+    height: 110px ;
+    backdrop-filter: blur(30px);
+    position: relative ;
+    bottom:330px;
+    padding-top: 1% ;
+   
+}
+.gallery_asme .extras h3{
+    font-size: 1.4rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.gallery_asme .extras p{
+    text-align: left;
+    width: 80%;
+    margin:0px auto;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+
+
+.image-gallery-thumbnail {
+    display: inline-block;
+    border: 4px solid transparent;
+    transition: border .3s ease-out;
+    width: 270px;
+    height: 180px;
+    background: transparent;
+    padding: 0;
+}
+.indicator{
+    border-radius: 10px;
+    border: 8px solid #fff;
+    background-color: rgb(0, 149, 241);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 110px;
+    z-index: 10
+}
+
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, .image-gallery-thumbnail{
+    border: 0;
+    
+}
+.indicator:focus, .indicator:hover{
+    background-color: red;
+}
+
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+}
+.image-gallery-thumbnail .image-gallery-thumbnail-inner {
+    position: relative;
+    height: 170px;
+}
+.image-gallery-left-nav{
+    left: 20px;
+} 
+.image-gallery-right-nav {
+    right: 20px;
+}
+.image-gallery-left-nav, .image-gallery-right-nav {
+    padding: 0px;
+    top: 50%;
+    transform: translateY(500%);
+}
+
+.image-gallery-slide .image-gallery-image {
+    width: 100%;
+    object-fit:cover;
+}
+.image-gallery-play-button {
+    left: 0;
+}
+.image-gallery-fullscreen-button, .image-gallery-play-button {
+    bottom: 0;
+    padding: 20px;
+    display: none;
+}
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+    height: 45px;
+    width: 45px;
+}
+
+/* about */
+.About header{
+    margin: 0 auto;
+    width: 70%;
+    
+    padding:0%;
+    
+}
+
+.About header .len{
+    height: 10px;
+    width: 140px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.About .content{
+    width: 50%;
+    margin: 0 auto;
+}
+.About .content p{
+    text-align: left;
+    font-size:1.25rem;
+    line-height:1.6;
+    margin-bottom:50px 
+}
+
+/* our service */
+
+.Our{
+    margin-top:12%;
+    margin-bottom:100px
+}
+.Our header{
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    padding:0%;
+}
+
+.Our .content{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 8%;
+    display:grid;
+    grid-template-columns:repeat(4,25%)
+}
+
+.Our .content .service{
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+}
+
+.Our .content .service img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin:0 auto;
+    margin-bottom:50px
+}
+
+.Our .content .service h3{
+    margin: 0 auto;
+    font-size:1.8rem;
+}
+
+.Our .content .service p{
+    width: 90%;
+    margin: 0 auto;
+    margin-top:45px !important;
+    text-align: left;
+    font-weight:400;
+    font-size:1.1rem;
+}
+
+.Our .content .service a{
+ text-align: left;
+ width: 90%;
+ margin: 20px auto;   
+ text-decoration: none;
+ color: aqua;
+
+}
+
+.Our .content .lock p{
+    font-weight:400;
+    width: 90%;
+    font-size:1.1rem;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    text-align: left;
+   
+}
+.Our .content .service .content_box {
+
+    display: flex;
+    justify-content:space-between;
+}
+.Our .content .service .content_box .line{
+    width: 3px ;
+    height: 350px;
+    align-self: flex-start;
+    background-color:rgb(36, 204, 250);
+}
+.Our .content .service .content_box .line .dot{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: relative;
+    left: -8px;
+    background-color:rgb(36, 204, 250);
+}
