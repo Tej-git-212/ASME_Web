@@ -1,0 +1,46 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  /* Containers */
+  
+  .container-fluid{
+    height: auto;
+    padding: 7% 15%;
+  }
+  
+  /* carousel */
+  .carousel{
+   background-color: cadetblue;
+   color: white;
+  }
+  .carousel-text {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  
+  .carousel-image{
+    width:20%;
+    border-radius: 50%;
+    margin: 40px;
+  }
+  
+  .carousel-control-prev-icon{
+      border: 2px solid white;
+      border-radius:100%;
+      padding: 4% 4%;
+  }
+  
+  .carousel-control-next-icon{
+      border: 2px solid white;
+      border-radius:100%;
+      padding: 4% 4%;
+  }
+  
+  
+  

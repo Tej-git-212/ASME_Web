@@ -1,0 +1,78 @@
+.tab_panel .banner{
+    position:relative;
+    top:50px;
+    height:350px;
+}
+
+.tab_panel .banner .background_color{
+    background-color:orange;
+    width:100%;
+    position:absolute;
+    top:0;
+    height:350px;
+    opacity:.3;
+    
+}
+.tab_panel .title{
+    position:absolute;
+    top:120px;
+    width: 30%;
+    padding: 1.5% 3%;
+    background-color:rgb(236, 122, 0);
+    opacity:.75;
+    margin-left: 10%;
+    z-index:10;
+}
+.tab_panel .title header{
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.tab_panel .title p{
+    text-align: left;
+    font-size: 1.1rem;
+    color: white;
+    z-index: 100;
+    
+}
+.tab_panel .content{
+    margin-top:90px;
+    display:flex;
+
+}
+.tab_panel .content .write{
+    width:65%;
+    text-align: left;
+    padding: 10px 7%
+    
+}
+
+.tab_panel .content .write p{
+    margin-left:4%;
+    font-size:1.15rem;
+    font-weight:bold;
+    line-height: 2
+}
+
+.tab_panel .content  .logo{
+    padding:10px;
+}
+
+.tab_panel .content  .logo img{
+    width: 350px;
+    margin-left: 10%;
+}
+
+.tab_panel .images{
+    display: grid;
+    grid-template-columns:repeat(1,45% 45%);
+    justify-content:center;
+    align-items:center;
+    padding: 3% 1%;
+
+}
+.tab_panel .images img{
+        margin:30px auto;
+        width: 590px;
+}

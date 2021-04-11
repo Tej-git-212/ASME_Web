@@ -1,0 +1,219 @@
+.timeLine .header_img img{
+    width: 250px;
+    height: 120px;
+
+}
+
+.timeLine .header_title{
+    width: 45%;
+    margin: 20px auto;
+}
+.timeLine .header_title .border{
+    width: 180px;
+    height: 5px;
+    background-color: orange;
+    margin: 10px auto;
+}
+.timeLine .main{
+    /* height: 400px; */
+}
+
+
+
+
+/* timeline */
+.time_line_is{
+    position: relative;
+    margin:200px auto;
+    padding:30px 80px;
+    height: 300px;
+    width: 90%;
+
+}
+
+.time_line_is .time_list{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+}
+
+.time_line_is .time_list li{
+    box-sizing: border-box;
+    list-style-type: none;
+    line-height: normal;
+    position: relative;
+    width:50%;
+    padding: 20px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.time_line_is .time_list li::before{
+    content:url("");
+    background-color:red;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    height:3px;
+    width:100%;
+    padding: 0;
+    margin:0;
+}
+.time_line_is .time_list #li1::before{
+    background-color:red;
+}
+.time_line_is .time_list #li2::before{
+    background-color:green;
+}
+.time_line_is .time_list #li3::before{
+    background-color:orange;
+}
+.time_line_is .time_list #li4::before{
+    content: none;
+}
+
+
+
+/* odd */
+
+/* header */
+.time_line_is ul li:nth-child(odd) h3{
+    position:absolute;
+    top: -140%
+
+}
+
+/* img */
+.time_line_is ul li:nth-child(odd) img{    
+    position:absolute;
+    top: -40%;
+    z-index:10;
+}
+
+/* vertical */
+
+.time_line_is ul li:nth-child(odd) svg{
+    position:absolute;
+    top: -180%
+}
+/* p */
+.time_line_is ul li:nth-child(odd) p{
+    position:absolute;
+    top: 350%
+
+}
+
+/* even */
+.time_line_is ul li:nth-child(even) h3{
+    position: absolute;
+    top: 60px;
+
+}
+.time_line_is ul li:nth-child(even) img{
+    position: absolute;
+    top: -14px;
+
+}
+.time_line_is ul li:nth-child(even) p{
+    position: absolute;
+    top: -130px;
+
+}
+
+.time_line_is ul li:nth-child(even) svg{
+    position: absolute;
+    top: -505%;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+
+
+.time_line_is ul li .img_li{
+    width: 55px;
+    border-radius: 50%;
+    height:55px;
+}
+
+.svg_color_red{
+    fill: red;
+    
+}
+.svg_color_green{
+    fill: green;
+    
+}
+.svg_color_orange{
+    fill: orange;
+    
+}
+
+.svg_color_blue{
+    fill: blue;
+}
+
+
+
+
+/* timeline demo
+.timeline_is{
+    position: relative;
+    margin: 50px auto;
+    padding: 40px;
+    height: 1000px;
+    
+}
+
+.timeline_is::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    width:2px;
+    height:100%;
+    background:#c5c5c5;
+}
+
+.timeline_is ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    
+} 
+
+.timeline_is ul li{
+    box-sizing: border-box;
+    list-style-type: none;
+    line-height: normal;
+    position: relative;
+    width:50%;
+    padding: 20px 20px;
+
+}
+
+.timeline_is ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.timeline_is .content{
+    padding-bottom: 40px;
+}
+.timeline_is ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+.timeline_is ul li:nth-child(odd)::before{
+    content:"";
+    position: absolute;
+    width:10px;
+    height:10px;
+    background:rgba(233, 33,99,1);
+    border-radius: 50%;
+    top: 25px;
+    right:-6px;
+    box-shadow:0 0 0 3px rgba(233, 33, 99,.2);
+} */
