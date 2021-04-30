@@ -1,0 +1,158 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#bg{
+	background-image:url("bgpic.png");
+	background-size:cover;
+	background-position: center;
+	z-index:-1;
+}
+
+#heading{
+	position: absolute;
+	top: 3%;
+	left: 41%;
+	font-weight: bold;
+	font-size: 5rem;
+	opacity: 0.9;
+	color: #d3dae6;
+	letter-spacing: 0.4rem;
+	font-family: 'Bebas Neue', cursive;
+    text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+             0 3px 0 #777777, 0 4px 0 #666666,
+             0 5px 0 #555555, 0 6px 0 #444444,
+             0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+/* Containers */
+
+.container-fluid{
+  height: auto;
+  padding: 7% 15%;
+}
+
+.fa-angle-up{
+	position:absolute;
+	top: 2%;
+	right: 5%;
+    border: 1px solid white;
+	border-radius:100%;
+	padding: 0.5% 0.65%;
+	color: white;
+	opacity: 0.6;
+}
+
+.fa-angle-down{
+    position:absolute;
+	top: 89%;
+	right: 5%;
+    border: 1px solid white;
+	border-radius:100%;
+	padding: 0.5% 0.65%;
+	color: white;
+	opacity: 0.7;
+}
+	
+/* carousel */
+.carousel{
+ color: white;
+}
+.carousel-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity:1;
+}
+
+.carousel-image{
+  width:20%;
+  border-radius: 50%;
+  margin: 100px 50px 20px 50px;
+}
+
+.carousel-control-prev-icon{
+	border: 2px solid white;
+	border-radius:100%;
+	padding: 4% 4%;
+}
+
+.carousel-control-next-icon{
+	border: 2px solid white;
+	border-radius:100%;
+	padding: 4% 4%;
+}
+
+.carousel-control-prev {
+    left: 18%;
+}
+
+.carousel-control-next {
+    left: 67%;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+
+@media only screen and (max-width:650px )
+ 
+ {
+ 	
+#heading{
+	top: 3%;
+	left: 20%;
+	font-size: 5rem;
+	color: #d3dae6;
+	letter-spacing: 0.4rem;
+    text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+             0 3px 0 #777777, 0 4px 0 #666666,
+             0 5px 0 #555555, 0 6px 0 #444444,
+             0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-image{
+  width:50%;
+  border-radius: 50%;
+  margin: 210px 50px 20px 50px;
+}
+
+.carousel-control-prev {
+    left: 5%;
+}
+
+.carousel-control-next {
+    left: 80%;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  padding-top: 10px;
+}
+
+.fa-angle-up{
+	padding: 0.5% 1%;
+	opacity: 0.4;
+	top:4%
+}
+
+.fa-angle-down{
+	top: 95%;
+	padding: 0.5% 1%;
+	opacity: 0.4;
+}
+
+ }
+
+
